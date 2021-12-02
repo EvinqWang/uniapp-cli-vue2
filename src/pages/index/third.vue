@@ -13,14 +13,13 @@
 <script lang="ts">
 import { Component, Prop } from 'vue-property-decorator';
 import Vue from 'vue';
-// import { Getter, State } from 'vuex-class';
 
 @Component
-export default class index extends Vue {
+export default class third extends Vue {
 	title =  'Hello'
 }
 </script>
-  
+
 <style scoped>
 	.content {
 		display: flex;
